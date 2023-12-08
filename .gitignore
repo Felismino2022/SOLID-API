@@ -1,0 +1,69 @@
+# Logs e arquivos temporários
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diretórios específicos
+puppeteer/
+.vscode/
+
+# Dependências
+node_modules/
+
+# Construção
+dist/
+build/
+*.tsbuildinfo
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.backup
+*.md~
+
+# Arquivos de saída de teste
+coverage/
+*.lcov
+
+# Configuração do editor
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.suo
+*.tmproj
+*.rbc
+*.idb
+*.pdb
+*.log
+*.zip
+*.opendb
+
+# Configurações de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Arquivos de compilação
+*.compiled
+
+# npm
+npm-debug.log
+npm-debug.log.*
+node_modules/
